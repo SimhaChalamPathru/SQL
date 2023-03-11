@@ -1,0 +1,14 @@
+Create following tables, insert at least 5 rows in each table and answer the queries:
+	Branch(bid,bname,location)
+	Customer(cid, cname,location)
+	Account(accno, cid, bid, deposit_amt)
+
+Insert atleast 5 records in each table
+
+Answer the Following Queries:
+
+a) Display all the customer details who belongs to HYDERABAD.
+b) Display Number of depositers branch wise.
+c) Display account number, customer name, branch name and amount of all the depositors.
+d) Display all the customer names who are having more than one account.
+e) Display all the customers whose branch is located same as living city.

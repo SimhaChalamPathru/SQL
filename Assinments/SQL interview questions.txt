@@ -1,0 +1,72 @@
+SQL Interview Questions
+
+1.What is Relational Database Management System
+(RDMBS)?
+A)
+2.What is Structured Query Language?
+3.What is a Database?
+4.What is primary key?
+5.What is a unique key?
+6.What is a foreign key?
+7.Explain the difference between spreadsheets and
+databases.
+8.What are table and fields?
+9.Explain the various SQL languages.
+10. What is normalization?
+11. What is denormalization?
+12. Explain the different types of normalization.
+13. What are views in SQL?
+14. What is join? Explain the different types.
+15. What are the different types of indexes?
+16. What is a cursor in SQL?
+17. What is query?
+18. What is a subquery?
+19. What is a trigger?
+20. Differentiate between the DELETE and TRUNCATE
+commands.
+
+21. What are constraints?
+22. What is data integrity?
+23. What is auto increment?
+24. What is a data warehouse?
+25. What is the difference between DROP and TRUNCATE
+statements?
+26. What is alias in SQL?
+27. How can we create tables in SQL?
+28. How can we insert data in SQL?
+29. How can we change a table name in SQL?
+30. What are nested queries?
+37. What is the difference between CHAR and VARCHAR2 data types ?
+38. What is difference between SQL and PL/SQL?
+39. What is the difference between SQL and MySQL?
+40. What is cross join?
+41. What are user defined functions?
+42. What is a CLAUSE?
+43. What is recursive stored procedure?
+44. Explain UNION, MINUS and INTERSECT commands?
+45. How can we select unique records from a Table?
+46. List and explain each of the ACID properties that collectively guarantee that database  
+      transactions are processed reliably.
+47. What is the main difference in the BETWEEN and IN condition operators?
+48. What are SQL functions used for?
+49. List some case manipulation functions in SQL.
+50. Is semicolon used after sql? Justify why or why not.
+51. What is candidate key?
+52. What is the difference between JOIN and UNION?
+53. What is the difference between order and group by?
+58. Write an SQL query to fetch employee names having a salary greater than or equal to 
+	20000 and less than or equal to 10000.
+59. How can we select unique records from a table?
+60. What is the command used to fetch the first 5
+characters of the string?
+61. How to use LIKE in SQL?
+62. How can we copy a table in SQL?
+63. If we drop a table, does it also drop related objects?
+64. Can you join a table by itself?
+65. Explain Equi join with an example.
+66. Explain non-Equi join with an example.
+67.  Write an SQL query to show the second highest  salary from a table.
+68. How would you select all the users whose phone number is NULL?
+69. Write an SQL query to fetch three max salaries from a table.
+70. Write an SQL query to create a new table with data and structure copied from another table.
+71. What are the differences between the HAVING clause, and the WHERE clause?

@@ -1,0 +1,24 @@
+			EMP-DEPT Queries(Including VIEW)
+ Using Emp and Department tables answer the following queries.
+a. display the average salary of clerk, salesman
+b. list the employees who are earning more than “Allen”
+c. list the employees working in the same department of WARD and JONES
+d. display the second highest paid employee details
+e. create a view of employee with column names as empno, ename, job, salary, deptno, dname
+of those who are working as ‘CLERK’;
+
+Creating view:
+create view emp_clerk as select empno, ename, job, sal, deptno, dname from emp e,dept d where
+e.deptno=d.deptno and job=’CLERK’;
+1. display emp_clerk_view
+2. update the salaries of clerks in view by10%
+3. delete the record from view whose names is‘JAMES’ Queries of emp and dept:
+a. select job,avg(sal)from emp group by job having job in(‘CLERK’,’SALESMAN’);
+b. select ename,sal from emp where sal>(select sal from emp where ename=’ALLEN’);
+c. select ename,job,sal,deptno from emp where deptno in(select deptno from emp where
+ename=’WARD’ or ename=’JONES’);
+d. select * from emp a where 1=(select count(distinct sal)from emp b where a.sal<b.sal);
+Queries of view:
+1. select * from emp_clerk;
+2. update emp_clerk set sal=sal+(sal*0.1) where job=’CLERK’;
+3. delete from emp_clerk where ename=’JAMES’;
